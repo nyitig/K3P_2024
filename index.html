@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <!-- <link rel="preload" href="style.css" as="style"> -->
+  <meta charset="UTF-8">
+  <meta name="author" content="NyitiG Világa">
+  <meta name="description" content="description">
+  <meta name="keywords" content="">
+  <meta name="distribution" content="local">
+  <meta name="revised" content="NyitiG Világa, 2024/01/07 ">
+  <meta name="robots" content="index,nofollow">
+  <meta name="googlebot" content="index,nofollow">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/pics/K3PLogonew.ico" sizes="256x256" type="image/x-icon">
+  <title>K3P Webpage</title>
+  <link rel="stylesheet" href="style.css">
+  <link id="stylesheet" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- WEBPAGE  DESKTOP FIRST-->
+    <section id="fullPage" class="">
+      <!-- HEADER -->
+      <header id="header" class="">
+        <div id="headerDiv" class="">
+          <h2 id="headerH2" class="textUppercase textCent">K3P The password storage</h2>
+          <div id="menuSvgDivCont" class="">
+            <img id="hamMenuImg" src="/assets/pics/menu-outline.svg" alt="" class="svgSizeWhite" width="30" height="30">
+
+          </div>
+          <nav id="navSect" class="">
+            <div id="navDiv" class="borderRadius">
+              <ul id="navUl" class="">
+                <li id="closeLink" class=" row justySpcBetw">
+                  <div></div>
+                  <img class="svgSize" src="/assets/pics/arrow-forward-circle-outline.svg" alt="" width="30" height="30"
+                  loading="eager">
+                </li>
+                <li id="homeLink" data-link="main" class=" menuListLi">
+                  <a href="#main"  class="textUppercase colorHeaderAndPoint navLink home active">Main</a>
+                </li>
+                <li id="aboutLink" data-link="about" class=" menuListLi">
+                  <a href="#about"  class="textUppercase colorHeaderAndPoint navLink">About us</a>
+                </li>
+                <li id="impressumLink" data-link="impress" class=" menuListLi">
+                  <a href="#impress"  class="textUppercase colorHeaderAndPoint navLink">Impresszum</a>
+                </li>
+                <li id="contactLink" data-link="home" class=" menuListLi">
+                  <a href="#"  class="textUppercase colorHeaderAndPoint navLink">Login</a>
+                </li>
+                <li id="serviceLink" data-link="services" class=" menuListLi">
+                  <a  href="#"  class="textUppercase colorHeaderAndPoint navLink">Register</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- HEADER END -->
+      <!-- SCROLL UP BLOCK -->
+      <section id="scrollUp" class="hide">
+        <a id="scrollUpCont" data-link="main" href="#main" class="column justyCent alignCent boxShadow cursorPointer">
+          <img id="scrollUpImg" class="s" src="/assets/pics/arrow-forward-circle-outline.svg" width="60" height="60" alt="">
+        </a>
+      </section>
+      <!-- SCROLL UP BLOCK END -->
+        <!-- MAIN SECTION -->
+      <!-- ide be kell tenni a paddingTop6rem-ot ha nem tetszik a videós kinézet -->
+      <main id="main" class="">
+        <!-- background video container -->
+        <div id="backgroundVideoCont" class="">
+          <video id="backgroundVideo" autoplay muted loop poster="/assets/pics/videoPosterPic.png" 
+          src="/assets/videos/ICON_VERSION6.mp4"></video>
+        </div>
+        <div id="videoMask" class=""></div>
+        <div id="mainTextBox" class="">
+          <div id="mainTextCont" class="column">
+            <!-- <h1 id="mSmInfH3" class="colorHeaderAndPoint textCent">K3P The safe storage</h1> -->
+            <div id="mainTextButtonsCont" class="">
+              <a id="homeButton" data-link="services" class="mainButton borderRadius boxShadow imgBorder "  href="#services">Login</a>
+              <a id="serviceButton" data-link="pricesSect" class="mainButton borderRadius boxShadow imgBorder marginTop" href="#pricesSect">Register</a>
+            </div>
+
+          </div>
+        </div>
+        <!-- Background Video Container End -->
+        <!-- about section -->
+        <section id="about" class="column alignCent paddingTop6rem sectionNav">
+          <h2>About us</h2>
+        </section>
+        <!-- about section end -->
+    
+        <!-- impressum section -->
+        <section id="impress" class="column alignCent justySpAr menu width100 paddingTop6rem sectionNav">
+          <h2>Impressum</h2>
+        </section>
+        <!-- impressum section end -->
+      </main>
+  </section>
+  <!-- WEBPAGE END -->
+
+  <!-- COOCKIES BLOCK -->
+  <section id="cookies" class="">
+    <div id="cookiesCont" class="justySpAr alignCent ">
+      <p id="cookiesP" class="textCent">The website does not record any data or use cookies</p>
+      <button id="cookiesCheckbox" class="backButton borderRadius boxShadow imgBorder">Close</button>
+    </div>
+</section>
+  <!-- COOKIES BLOCK END -->
+
+  <!-- INPUT SECTION -->
+<section id="inputSection" class="hide"></section>
+  <!-- INPUT SECTION END -->
+
+  <!-- scripts -->
+  <script src="/assets/js/devicecheck.js"></script>
+  <script src="app.js"></script> 
+  
+</body>
+</html>
