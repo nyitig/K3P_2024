@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="hu" id="html">
 <head>
   <!-- <link rel="preload" href="style.css" as="style"> -->
   <meta charset="UTF-8">
@@ -17,14 +17,14 @@
   <link rel="stylesheet" href="style.css">
   <link id="stylesheet" rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body">
 
     <!-- WEBPAGE  DESKTOP FIRST-->
     <section id="fullPage" class="">
       <!-- HEADER -->
       <header id="header" class="">
         <div id="headerDiv" class="">
-          <h2 id="headerH2" class="textUppercase textCent">K3P The password storage</h2>
+          <h2 id="headerH2" class="textUppercase textCent"><span id="headerH2Span">K3P  The password storage </span></h2>
           <div id="menuSvgDivCont" class="">
             <img id="hamMenuImg" src="/assets/pics/menu-outline.svg" alt="" class="svgSizeWhite" width="30" height="30">
 
@@ -67,24 +67,27 @@
       <!-- SCROLL UP BLOCK END -->
         <!-- MAIN SECTION -->
       <!-- ide be kell tenni a paddingTop6rem-ot ha nem tetszik a videós kinézet -->
-      <main id="main" class="">
+      <main id="main" class="scrollContainer">
+        <section id="backgroundVideoSect" class="">
         <!-- background video container -->
-        <div id="backgroundVideoCont" class="">
-          <video id="backgroundVideo" autoplay muted loop poster="/assets/pics/videoPosterPic.png" 
-          src="/assets/videos/ICON_VERSION6.mp4"></video>
-        </div>
-        <div id="videoMask" class=""></div>
-        <div id="mainTextBox" class="">
-          <div id="mainTextCont" class="column">
-            <!-- <h1 id="mSmInfH3" class="colorHeaderAndPoint textCent">K3P The safe storage</h1> -->
-            <div id="mainTextButtonsCont" class="">
-              <a id="homeButton" data-link="services" class="mainButton borderRadius boxShadow imgBorder "  href="#services">Login</a>
-              <a id="serviceButton" data-link="pricesSect" class="mainButton borderRadius boxShadow imgBorder marginTop" href="#pricesSect">Register</a>
-            </div>
-
+         <div id="backgroundVideoCont" class="">
+            <video id="backgroundVideo" autoplay muted loop poster="/assets/pics/videoPosterPic.png" 
+           src="/assets/videos/ICON_VERSION6.mp4"></video>
           </div>
-        </div>
+          <div id="videoMask" class=""></div>
+            <div id="mainTextBox" class="">
+              <div id="mainTextCont" class="column">
+                <h1 id="mSmInfH3" class="colorHeaderAndPoint textCent">K3P The safe storage</h1>
+                <div id="mainTextButtonsCont" class="">
+                  <a id="homeButton" data-link="services" class="mainButton borderRadius boxShadow imgBorder "  href="#services">Login</a>
+                  <a id="serviceButton" data-link="pricesSect" class="mainButton borderRadius boxShadow imgBorder marginTop" href="#pricesSect">Register</a>
+                </div>
+
+              </div>
+          </div>
         <!-- Background Video Container End -->
+        </section>
+
         <!-- about section -->
         <section id="about" class="column alignCent paddingTop6rem sectionNav">
           <h2>About us</h2>
